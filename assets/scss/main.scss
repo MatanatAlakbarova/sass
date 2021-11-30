@@ -1,0 +1,26 @@
+@import "../scss/variable/colors";
+@media only screen and (max-width:600px) {
+    .all-header{
+        display: none;
+    }
+    .phone-all-header{
+        .phone-header{
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+            background-color: $bg-color;
+            padding: 10px 20px;
+            z-index: 55555555;
+            .left a{
+             color:$primary-color;
+             font-size: 10px;
+            }
+            .right i{
+                color: $primary-color
+            }
+          }
+    }
+}

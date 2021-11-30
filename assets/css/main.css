@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+  .all-header {
+    display: none;
+  }
+  .phone-all-header .phone-header {
+    position: fixed;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    background-color: #050800;
+    padding: 10px 20px;
+    z-index: 55555555;
+  }
+  .phone-all-header .phone-header .left a {
+    color: #fff;
+    font-size: 10px;
+  }
+  .phone-all-header .phone-header .right i {
+    color: #fff;
+  }
+}

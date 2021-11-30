@@ -1,0 +1,46 @@
+@import "../variable/colors"; 
+#intro-section{
+    position: relative;
+    background-image: url(http://coderspoint.net/html/showkes/assets/img/bg/intro-bg.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    z-index: -111;
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:$black-color;
+        opacity: .6;
+        z-index: -11;
+    }
+    .content{
+        text-align: center;
+        h4{
+            color: $primary-color;
+            font-size: 35px;
+            font-weight: 100;
+            margin-bottom: 30px;
+        }
+        h3{
+            color: $primary-color;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 60px;
+        }
+        a{
+            background-color: $primary-color;
+            color: $black-color;
+            padding: 10px 20px;
+            transition: .4s;
+            }
+            a:hover{
+                background-color: $black-color;
+                color: $primary-color; 
+            }
+    }
+}

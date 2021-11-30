@@ -1,0 +1,30 @@
+@import "../variable/colors";
+   .phone-all-header{
+         display: none;
+   } 
+    .all-header{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        background-color: $bg-color;
+        padding: 10px 20px;
+        z-index: 55555555;
+       .left a{
+           color:$primary-color;
+           font-size: 20px;
+       }
+       .right{
+             ul{
+              display: flex; 
+              visibility: visible;       
+                li{
+                    color: $primary-color;
+                    margin-left: 25px;
+                    font-weight: bold;
+                }
+            }
+        }  
+    }     

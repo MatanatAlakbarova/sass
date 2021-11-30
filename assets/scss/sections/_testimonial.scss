@@ -1,0 +1,30 @@
+@import "../variable/colors"; 
+#testimonial-section{
+    margin: 100px 0;
+    text-align: center;
+        i{
+            padding: 10px;
+            color: $main-color;
+            font-size: 15px;
+            border: 2px solid $main-color;
+            border-radius: 100%;
+        }
+        p{
+            width: 100%;           
+            color: $main-color;
+            font-size: 20px;
+        }
+        h4{
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        span{
+            color: $main-color;
+            font-size: 17px;
+        }
+        hr{
+            margin: 80px auto;
+        }
+   }
+  

@@ -1,0 +1,47 @@
+@import "../variable/colors"; 
+#services-section{
+    hr{
+        margin: 60px auto;
+    }
+    .top{
+        text-align: center;
+        margin: 50px 0;
+        h3{
+            font-size: 35px;
+            color: $main-color;
+            span{
+                color: $black-color;
+            }
+        }
+        hr{
+            width: 50px;
+            margin: 10px auto;
+        }
+        p{
+            font-size: 20px;
+            color: $main-color;
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .box{
+            width: calc(100%/3);
+            text-align:center;
+            i{
+                font-size: 30px;
+                color: $main-color;
+                margin: 20px 0;
+            }
+            h3{
+                font-size: 20px;
+            }
+            p{
+                color: $main-color;
+                padding: 0 50px ;
+                margin: 20px 0;
+            }
+        }
+    }
+}

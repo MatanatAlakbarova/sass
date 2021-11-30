@@ -1,0 +1,89 @@
+@import "../variable/colors"; 
+#works-section{
+    .all{
+        text-align: center;
+        .top{
+            
+            h3{
+                color:$main-color;
+                font-size: 30px;
+                span{
+                    color: $black-color;
+                    font-size: 30px;
+                }
+            }
+            hr{
+                width: 60px;
+                margin: 20px auto;
+            }
+            p{
+                color: $main-color;
+                font-size: 20px;
+            }
+        }
+        .middle {
+            margin: 20px 40%;
+            ul{
+                margin: 50px 0;
+                text-align: center;
+                display: flex;
+                justify-content: space-evenly;
+                li i{
+                    font-size: 25px;
+                    color: $black-color;
+                }
+                li h4{
+                    font-size: 15px;
+                    color: $black-color;
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .box {
+                overflow: hidden;
+                position: relative;
+                width: 33.2%;
+                img{
+                    transition: 0.5s;
+                    width: 100%;
+                }
+                i{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    color: $black-color;
+                    font-size: 30px;
+                    z-index: 9999999999999999;
+                    opacity: 0;
+                    transition: .5s;
+                }
+                .overlay{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    z-index: 1111111;
+                    background-color: $primary-color;
+                    transition: .5s;
+                    transform: scale(.5);
+                }
+                a:hover .overlay{
+                    opacity: .5;
+                    transform: scale(1);
+                }
+                a:hover i{
+                    opacity: 1;
+                }
+                a:hover img{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }  
+} 

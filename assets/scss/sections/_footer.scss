@@ -1,0 +1,35 @@
+@import "../variable/colors"; 
+#footer-section{
+    text-align: center;
+    background-color: $bg-color;
+    margin-top: 70px;
+    padding: 50px ;
+    .footer-text{   
+    color: $primary-color;
+    font-size: 20px;
+        ul li {
+            margin-bottom: 20px;
+            a{
+                color: $primary-color;
+            }
+        }
+    }
+    .footer-icon{
+        color: $primary-color;
+        i{
+            margin-left: 20px;
+            border: 2px solid $primary-color;
+            border-radius: 100%;
+            padding: 7px;
+        }
+        i:hover{
+            background-color: $primary-color;
+            color: $black-color;
+        }
+    }
+    p{
+        margin-top: 20px;
+        color: $primary-color;
+        font-size: 17px;
+    }
+}

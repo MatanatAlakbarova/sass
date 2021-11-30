@@ -1,0 +1,49 @@
+@import "../variable/colors"; 
+#contact-me{
+    .top{
+        text-align: center;
+        h3{
+            font-size: 35px;
+            color: $main-color;
+                span{
+                    color: $black-color;
+                }
+        }
+        hr{
+            width: 100px;
+            margin: 20px auto;
+        }
+        p{
+            color: $main-color;
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+    }
+    .bottom{
+        align-items: center;
+        text-align: center;
+        textarea{
+            min-width: 55%;
+            min-height: 100px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        a{
+            padding: 15px 25px;
+            background-color: $black-color;
+            color: $primary-color;
+            border-radius: 5px;
+        }
+        a:hover{
+            background-color: $main-color;
+        }
+    }
+    label{
+        display: block;
+    }
+    input{
+        width: 55%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
